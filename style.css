@@ -26,3 +26,12 @@ h1, h2 {
         font-size: 1.25rem;
     }
 }
+
+/* Additional responsive styles */
+.container {
+    padding: 15px;
+}
+
+.text-center {
+    margin-bottom: 20px;
+}
