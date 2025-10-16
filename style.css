@@ -25,3 +25,15 @@ h1 {
         font-size: 3rem;
     }
 }
+
+/* Additional styles for accessibility and focus states */
+:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :focus {
+        outline: none;
+    }
+}
